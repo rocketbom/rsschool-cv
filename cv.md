@@ -4,7 +4,7 @@
 - phone: +380505165155
 - email: zp.nikitin.d@gmail.com
 
-## About me
+## Summary
 **I’m new to development, but I have a clear goal — to shift my professional direction and grow in this field. This is a conscious choice, and I’ve set  _high goals_ for myself — these courses are just the first step. Previously, I worked as an analytical and detail-oriented digital specialist with a solid background in IT, QA, and content management. I managed websites, performed SEO optimization, worked with analytics tools like Google Analytics and Ahrefs, and constantly sought ways to turn technical insights into real business results. I’m proactive and a fast learner — qualities that now help me confidently step into a new professional domain.**
 
 ## Skills
