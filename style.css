@@ -1,5 +1,6 @@
-body {
-  margin: 0;
+.page_body {
+  width: 70%;
+  max-width: 1200px;
   font-family: 'Poppins', sans-serif;
   background-color: #1e1e1e;
   color: #f5f5f5;
@@ -7,6 +8,14 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  margin: 0 auto;
+}
+
+/* На екранах до 768px — 100% */
+@media screen and (max-width: 768px) {
+  .page_body {
+    width: 95%;
+  }
 }
 
 header, main, footer {
@@ -61,11 +70,11 @@ a {
   color: orange;
 }
 
-img {
+.avatar {
   width: 300px;
-  height: 150px;
+  height: 350px;
   object-fit: cover;
-  border-radius: 20%;
+  border-radius: 10px;
   display: block;
   margin: 0 auto;
 }
@@ -86,24 +95,16 @@ pre {
   color: white;
   background-color: #1e232c;
 }
+
 .footer_github {
   position: relative;
   padding-left: 40px;
 }
-.footer_github::before {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  width: 32px;
-  height: 32px;
-  background-image: url("../images/github-logo.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
+
 .footer_year {
   justify-self: center;
 }
+
 .footer_rsschool {
   justify-self: end;
   height: 32px;
