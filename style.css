@@ -72,9 +72,8 @@ a {
 
 .avatar {
   width: 300px;
-  height: 350px;
+  height: 400px;
   object-fit: cover;
-  border-radius: 10px;
   display: block;
   margin: 0 auto;
 }
