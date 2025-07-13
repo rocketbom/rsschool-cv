@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="page_body">
 
   <header>
     <nav>
@@ -20,11 +20,14 @@
         <li><a href="#contacts">Contacts</a></li>
       </ul>
     </nav>
-    <h1>Nikitin Dmytro</h1>
-    <img src="images/avatar.jpg" alt="Nikitin Dmytro">
   </header>
 
   <main>
+    <section>
+        <h1>Nikitin Dmytro</h1>
+        <img src="images/avatar.jpg" alt="Nikitin Dmytro" width="300" height="350">
+    </section>
+
     <section id="summary">
       <h2>Summary</h2>
       <p><strong>I’m new to development, but I have a clear goal — to shift my professional direction and grow in this field.</strong>
@@ -75,9 +78,7 @@
       <h3>Languages</h3>
       <p>English (A2–B1), Dutch (A2–B1)</p>
     </section>
-</main>
 
-  <footer>
     <section id="contacts">
       <h2>Contacts</h2>
       <ul>
@@ -85,9 +86,12 @@
         <li><a href="mailto:dmytronikitin.work@gmail.com">dmytronikitin.work@gmail.com</a></li>
       </ul>
     </section>
-    <p>© 2025 Nikitin Dmytro | <a href="https://github.com/rocketbom" target="_blank">GitHub</a> | 
-      <a href="https://rs.school/courses/javascript-ru" target="_blank">
-        <img src="images/rs-school-logo.svg" alt="RS School logo" width="100">
+</main>
+
+  <footer class="footer">
+    <p><a class="footer_github" href="https://github.com/rocketbom" target="_blank">GitHub</a> | © 2025 Nikitin Dmytro |
+      <a class="footer_rsschool" href="https://rs.school/courses/javascript-ru" target="_blank">
+        <img src="images/rs-school-logo.svg" width="86" height="32" alt="RS School Logo">
       </a>
     </p>
   </footer>

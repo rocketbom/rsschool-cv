@@ -1,5 +1,6 @@
-body {
-  margin: 0;
+.page_body {
+  width: 70%;
+  max-width: 1200px;
   font-family: 'Poppins', sans-serif;
   background-color: #1e1e1e;
   color: #f5f5f5;
@@ -7,6 +8,14 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  margin: 0 auto;
+}
+
+/* На екранах до 768px — 100% */
+@media screen and (max-width: 768px) {
+  .page_body {
+    width: 95%;
+  }
 }
 
 header, main, footer {
@@ -61,11 +70,11 @@ a {
   color: orange;
 }
 
-img {
-  width: 150px;
-  height: 150px;
+.avatar {
+  width: 300px;
+  height: 350px;
   object-fit: cover;
-  border-radius: 20%;
+  border-radius: 10px;
   display: block;
   margin: 0 auto;
 }
@@ -77,11 +86,32 @@ pre {
   border-radius: 5px;
 }
 
-footer {
-  margin-top: 50px;
-  text-align: center;
+/* Footer */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 60px 20px 60px;
+  color: white;
+  background-color: #1e232c;
 }
 
-footer img {
-  margin-top: 10px;
+.footer_github {
+  position: relative;
+  padding-left: 40px;
 }
+
+.footer_year {
+  justify-self: center;
+}
+
+.footer_rsschool {
+  justify-self: end;
+  height: 32px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
