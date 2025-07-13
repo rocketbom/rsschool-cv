@@ -77,11 +77,40 @@ pre {
   border-radius: 5px;
 }
 
-footer {
-  margin-top: 50px;
-  text-align: center;
+/* Footer */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 60px 20px 60px;
+  color: white;
+  background-color: #1e232c;
+}
+.footer_github {
+  position: relative;
+  padding-left: 40px;
+}
+.footer_github::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  background-image: url("../images/github-logo.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.footer_year {
+  justify-self: center;
+}
+.footer_rsschool {
+  justify-self: end;
+  height: 32px;
 }
 
-footer img {
-  margin-top: 10px;
-}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
