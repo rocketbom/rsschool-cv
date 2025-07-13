@@ -70,6 +70,15 @@ img {
   margin: 0 auto;
 }
 
+.avatar {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
 pre {
   background: #2a2a2a;
   padding: 15px;
